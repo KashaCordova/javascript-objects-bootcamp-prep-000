@@ -3,3 +3,6 @@ var playlist = {
   AnthemLights: 'Lighthouse',
   CeliaGearin: 'Break Me',
 };
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle;
+}
